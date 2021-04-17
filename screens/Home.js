@@ -5,6 +5,18 @@ export default class Home extends Component {
         return (
             <View style = {styles.container}>
                 <View  style = {style.containerone}>
+                    <View style ={styles.boxone}>
+
+                    </View>
+                    <View style ={styles.boxtwo}>
+
+                    </View>
+                    <View style ={styles.boxthree}>
+
+                    </View>
+                    <View style ={styles.boxfour}>
+
+                    </View>
 
                 </View>
                 
