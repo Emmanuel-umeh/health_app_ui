@@ -13,11 +13,11 @@ export default class App extends Component {
 
           headerTransparent : true,
           headerLeft : ()=>{
-            <Image source = {} />
+            <Image source =  {require('./assets/icons/menu.png')}/>
           },
 
           headerRight : ()=>{
-            <Image source = {} />
+            <Image source = {require('./assets/icons/person.png')} />
           }
         }} />
         <Stack.Screen name = "Mission" component = {} />
