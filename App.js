@@ -13,11 +13,15 @@ export default class App extends Component {
           title : '',
           headerTransparent : true,
           headerLeft : ()=>{
-            <Image source =  {require('./assets/icons/menu.png')}/>
+            <Image source =  {require('./assets/icons/menu.png')} 
+            
+            />
           },
 
           headerRight : ()=>{
-            <Image source = {require('./assets/icons/person.png')} />
+            <Image style = {{
+              marginHorizontal : 20, marginTop : 40
+            }} source = {require('./assets/icons/person.png')} />
           }
         }} />
         <Stack.Screen name = "Mission" 
@@ -29,7 +33,9 @@ export default class App extends Component {
           },
 
           headerRight : ()=>{
-            <Image source = {require('./assets/icons/person.png')} />
+            <Image  style = {{
+              marginHorizontal : 20, marginTop : 40
+            }}  source = {require('./assets/icons/person.png')} />
           }
         }} 
         component = {} />
