@@ -10,7 +10,7 @@ export default class App extends Component {
       <NavigationContainer>
         
         <Stack.Screen name = "Home" component = {} options ={{
-
+          title : '',
           headerTransparent : true,
           headerLeft : ()=>{
             <Image source =  {require('./assets/icons/menu.png')}/>
