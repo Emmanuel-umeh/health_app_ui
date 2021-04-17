@@ -3,7 +3,10 @@ import {View, StyleSheet, Text} from "react-native"
 export default class Home extends Component {
     render() {
         return (
-            <View>
+            <View style = {styles.container}>
+                <View>
+                    
+                </View>
                 
             </View>
         )
