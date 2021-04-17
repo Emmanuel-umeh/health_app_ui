@@ -20,7 +20,19 @@ export default class App extends Component {
             <Image source = {require('./assets/icons/person.png')} />
           }
         }} />
-        <Stack.Screen name = "Mission" component = {} />
+        <Stack.Screen name = "Mission" 
+         options ={{
+          title : '',
+          headerTransparent : true,
+          headerLeft : ()=>{
+            <Image source =  {require('./assets/icons/menu.png')}/>
+          },
+
+          headerRight : ()=>{
+            <Image source = {require('./assets/icons/person.png')} />
+          }
+        }} 
+        component = {} />
       </NavigationContainer>
     )
     <StackActions
