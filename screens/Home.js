@@ -55,7 +55,8 @@ const styles = StyleSheet.create({
         flex : 0.8,
         marginHorizontal
     },
-    boxone : {
-        flex : 1
+    boxthree : {
+        flex : 2.5
     },
+    boxthroat
 })
