@@ -19,6 +19,8 @@ export default class Home extends Component {
                     </View>
 
                 </View>
+
+                <View style = {styles.containertwo}></View>
                 
             </View>
         )
@@ -32,5 +34,17 @@ const styles = StyleSheet.create({
         flex : 1, 
         alignItems : "center", 
         justifyContent : "center"
+    },
+
+    containerone: {
+      
+        flex : 1
+
+    },
+
+    containertwo : {
+        flex : 1,
+        backgroundColor : '#fff',
+        borderTopRightRadius :  60, 
     }
 })
