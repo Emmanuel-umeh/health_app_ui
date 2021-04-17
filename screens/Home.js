@@ -52,7 +52,8 @@ const styles = StyleSheet.create({
         flex : 1
     },
     boxtwo : {
-        flex : 0.5
+        flex : 0.8,
+        marginHorizontal
     },
     boxone : {
         flex : 1
