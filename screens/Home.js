@@ -51,5 +51,10 @@ const styles = StyleSheet.create({
     boxone : {
         flex : 1
     },
-    
+    boxtwo : {
+        flex : 0.5
+    },
+    boxone : {
+        flex : 1
+    },
 })
