@@ -13,7 +13,11 @@ export default class App extends Component {
 
           headerTransparent : true,
           headerLeft : ()=>{
-            <Image source 
+            <Image source = {} />
+          },
+
+          headerRight : ()=>{
+            <Image source = {} />
           }
         }} />
         <Stack.Screen name = "Mission" component = {} />
