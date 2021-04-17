@@ -46,5 +46,10 @@ const styles = StyleSheet.create({
         flex : 1,
         backgroundColor : '#fff',
         borderTopRightRadius :  60, 
-    }
+        borderTopLeftRadius : 60
+    },
+    boxone : {
+        flex : 1
+    },
+    
 })
