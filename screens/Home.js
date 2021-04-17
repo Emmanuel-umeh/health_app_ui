@@ -58,5 +58,9 @@ const styles = StyleSheet.create({
     boxthree : {
         flex : 2.5
     },
-    boxthroat
+    boxfour : {
+        flex : 0.5,
+        color : '$fff',
+        flexDirection : 'row'
+    }
 })
