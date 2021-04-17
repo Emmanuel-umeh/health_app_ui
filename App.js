@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import {NavigationContainer, StackActions} from "@react-navigation/native"
 import {createStackNavigator} from '@react-navigation/stack'
-
+import {Image} from "react"
 
 const Stack = createStackNavigator()
 export default class App extends Component {
@@ -9,7 +9,13 @@ export default class App extends Component {
     return (
       <NavigationContainer>
         
-        <Stack.Screen name = "Home" component = {} />
+        <Stack.Screen name = "Home" component = {} options ={{
+
+          headerTransparent : true,
+          headerLeft : ()=>{
+            <Image source 
+          }
+        }} />
         <Stack.Screen name = "Mission" component = {} />
       </NavigationContainer>
     )
