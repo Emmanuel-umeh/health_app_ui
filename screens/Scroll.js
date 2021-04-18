@@ -7,7 +7,7 @@ import {
   Image,
   TouchableOpacity,
 } from "react-native";
-import * as Animated from "react-native-animatable";
+import * as Animatable from "react-native-animatable";
 
 
 export default class Scroll extends Component {
