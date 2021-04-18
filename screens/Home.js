@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {View, StyleSheet, Text} from "react-native"
+import {View, StyleSheet, Text, ImageBackground} from "react-native"
 export default class Home extends Component {
     render() {
         return (
@@ -9,9 +9,16 @@ export default class Home extends Component {
 
                     </View>
                     <View style ={styles.boxtwo}>
+                        <Text style = {styles.name}> Hi Emmanuel</Text>
 
+<Text style = {styles.subtitle}>Welcome to my design</Text>
+                        
                     </View>
                     <View style ={styles.boxthree}>
+
+                        <ImageBackground  source ={{
+                            uri : 
+                        }} />
 
                     </View>
                     <View style ={styles.boxfour}>
