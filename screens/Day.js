@@ -5,7 +5,7 @@ export default class Day extends Component {
 
     render() {
         return (
-            <View style = {style.box1}>
+            <View style = {style.container}>
                 <View style = {{
                     borderRadius : 10, padding : 5, backgroundColor : this.props.active
 
