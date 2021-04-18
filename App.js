@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {NavigationContainer, StackActions} from "@react-navigation/native"
+import {NavigationContainer, Stack} from "@react-navigation/native"
 import {createStackNavigator} from '@react-navigation/stack'
 import {Image} from "react"
 import Home from "./screens/Home"
