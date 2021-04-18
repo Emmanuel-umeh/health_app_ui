@@ -58,6 +58,14 @@ My progress
                 title = "Mission"
                 subtitle  = "85% Completed"
                 image = {require("../assets/icons/checkbox.png")}
+                completed  = "85%"
+                />
+                <Card 
+                move = "bounceInLeft"
+                title = "Mission"
+                subtitle  = "85% Completed"
+                image = {require("../assets/icons/checkbox.png")}
+                completed  = "85%"
                 />
 
             </View>
