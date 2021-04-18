@@ -44,8 +44,10 @@ export default class Home extends Component {
 
         <View style={styles.containertwo}>
             <View style = {style.linr}></View>
-            <View style = {style.progress}></View>
-            <Text></Text> </View>
+            <View style = {style.progress}>
+
+                <Text></Text>
+            </View>
         </View>
       </View>
     );
