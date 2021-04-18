@@ -3,10 +3,6 @@ import { View ,  StyleSheet} from 'react-native'
 
 export default class Day extends Component {
 
-    state = {
-        color :"#126DF3",
-
-    }
     render() {
         return (
             <View style = {style.box1}>
@@ -31,7 +27,7 @@ const style = StyleSheet.create({
     container : {
         flex:1,
         alignItems : 'center',
-        justifyCenter : "#fff"
+        // justifyCenter : "#fff"
 
 
     }
