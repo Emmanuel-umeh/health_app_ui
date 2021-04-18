@@ -26,6 +26,9 @@ export default class Scroll extends Component {
 
 
                 <View style = {style.insidetwo}>
+                    <ImageBackground source = {this.props.background} style = {{
+                        width : "100%"
+                    }} />
 
                 </View>
                 
