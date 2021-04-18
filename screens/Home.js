@@ -20,7 +20,11 @@ export default class Home extends Component {
                     </View>
                     <View style ={styles.boxthree}>
 
-                        <ImageBackground  source ={require("../assets/icons/graphone.png")} />
+                        <ImageBackground 
+                        style={{
+                            width : 360, height : "100%"
+                        }}
+                        source ={require("../assets/icons/graphone.png")} />
 
                     </View>
                     <View style ={styles.boxfour}>
