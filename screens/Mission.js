@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { View , Text, ScrollView, StyleSheet} from 'react-native'
 // import {  } from 'react-native-gesture-handler'
 import Scroll from "./Scroll"
-
+import * as Animatable from 'react-native-animatable';
 export default class Mission extends Component {
     render() {
         return (
