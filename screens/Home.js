@@ -62,10 +62,10 @@ My progress
                 />
                 <Card 
                 move = "bounceInLeft"
-                title = "Mission"
+                title = "Completed"
                 subtitle  = "85% Completed"
                 image = {require("../assets/icons/checkbox.png")}
-                completed  = "85%"
+                completed  = "75%"
                 />
 
             </View>
