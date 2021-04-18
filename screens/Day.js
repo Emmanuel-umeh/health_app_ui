@@ -30,6 +30,9 @@ const style = StyleSheet.create({
 
     container : {
         flex:1,
+        alignItems : 'center',
+        justifyCenter
+
 
     }
 
