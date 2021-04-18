@@ -31,7 +31,14 @@ export default class Home extends Component {
             />
           </View>
           <View style={styles.boxfour}>
-              
+              <Day day_name = "Sun" />
+              <Day day_name = "Mon" />
+              <Day day_name = "Tue" />
+              <Day day_name = "Wed" />
+              <Day day_name = "Thu" />
+              <Day day_name = "Fri" />
+              <Day day_name = "Sat" />
+              <Day day_name = "Sun" />
           </View>
         </View>
 
