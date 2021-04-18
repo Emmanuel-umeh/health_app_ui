@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 
 import { View, StyleSheet, Text, ImageBackground } from "react-native";
+import Card from "./Card";
 import Day from "./Day";
 export default class Home extends Component {
   componentDidMount() {
@@ -51,6 +52,11 @@ My progress
                 </Text>
             </View>
             <View style = {styles.cards}>
+
+                <Card 
+                move = "bounceInLeft"
+                image = {require("../assets/icons/checkbox.png")}
+                />
 
             </View>
         </View>
