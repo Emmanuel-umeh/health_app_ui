@@ -50,6 +50,9 @@ export default class Home extends Component {
 My progress
                 </Text>
             </View>
+            <View style = {styles.cards}>
+
+            </View>
         </View>
       </View>
     );
