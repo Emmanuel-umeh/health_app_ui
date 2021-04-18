@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import {NavigationContainer, StackActions} from "@react-navigation/native"
 import {createStackNavigator} from '@react-navigation/stack'
 import {Image} from "react"
+import Home from "./screens/Home"
+import Mission from "./screens/Mission"
 
 const Stack = createStackNavigator()
 export default class App extends Component {
@@ -9,7 +11,7 @@ export default class App extends Component {
     return (
       <NavigationContainer>
         
-        <Stack.Screen name = "Home" component = {} options ={{
+        <Stack.Screen name = "Home" component = {<Home /> } options ={{
           title : '',
           headerTransparent : true,
           headerLeft : ()=>{
@@ -38,7 +40,7 @@ export default class App extends Component {
             }}  source = {require('./assets/icons/person.png')} />
           }
         }} 
-        component = {} />
+        component = { <Mission /> } />
       </NavigationContainer>
     )
     <StackActions
