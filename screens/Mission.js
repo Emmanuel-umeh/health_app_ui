@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { View , Text, ScrollView, StyleSheet} from 'react-native'
 // import {  } from 'react-native-gesture-handler'
+import Scroll from "./Scroll"
 
 export default class Mission extends Component {
     render() {
@@ -29,6 +30,47 @@ export default class Mission extends Component {
                     contentContainerStyle = {{width : "200%"}}
                     showsHorizontalScrollIndicator = {false}
                     >
+
+                        <Scroll 
+                        bgcolor = '#FFBE86'
+                        title = "Call of Duty"
+                        month = "Sep - Nov"
+                        animation = "bounceInLeft"
+
+                        background = {require("../assets/icons/graphtwo.png")}
+                        />
+                        <Scroll 
+                        bgcolor = '#FFBE86'
+                        title = "Call of Duty"
+                        month = "Sep - Nov"
+                        animation = "bounceInLeft"
+
+                        background = {require("../assets/icons/graphtwo.png")}
+                        />
+                        <Scroll 
+                        bgcolor = '#FFBE86'
+                        title = "Free Fire"
+                        month = "Sep - Nov"
+                        animation = "bounceInLeft"
+
+                        background = {require("../assets/icons/graphtwo.png")}
+                        />
+                        <Scroll 
+                        bgcolor = '#FFBE86'
+                        title = "PUBG"
+                        month = "Sep - Nov"
+                        animation = "bounceInLeft"
+
+                        background = {require("../assets/icons/graphtwo.png")}
+                        />
+                        <Scroll 
+                        bgcolor = '#FFBE86'
+                        title = "FortNite"
+                        month = "Sep - Nov"
+                        animation = "bounceInLeft"
+
+                        background = {require("../assets/icons/graphtwo.png")}
+                        />
 
                     </ScrollView>
 
