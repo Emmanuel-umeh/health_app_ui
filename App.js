@@ -50,6 +50,6 @@ export default class App extends Component {
              </Stack.Navigator>
       </NavigationContainer>
     )
-    <StackActions
+    
   }
 }
