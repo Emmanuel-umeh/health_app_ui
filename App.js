@@ -14,7 +14,7 @@ export default class App extends Component {
     return (
       <NavigationContainer>
         
-        <Stack.Screen  name = "Home" component = {<Home /> } options ={{
+        <Stack.Screen  name = "Home" component = {Home } options ={{
           title : '',
           headerTransparent : true,
           headerLeft : ()=>{
@@ -43,7 +43,7 @@ export default class App extends Component {
             }}  source = {require('./assets/icons/person.png')} />
           }
         }} 
-        component = { <Mission /> } />
+        component = { Mission } />
       </NavigationContainer>
     )
     <StackActions
