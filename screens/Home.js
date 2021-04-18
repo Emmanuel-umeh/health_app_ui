@@ -8,7 +8,7 @@ export default class Home extends Component {
     render() {
         return (
             <View style = {styles.container}>
-                <View  style = {style.containerone}>
+                <View  style = {styles.containerone}>
                     <View style ={styles.boxone}>
 
                     </View>
