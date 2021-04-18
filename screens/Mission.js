@@ -3,6 +3,8 @@ import { View , Text, ScrollView, StyleSheet} from 'react-native'
 // import {  } from 'react-native-gesture-handler'
 import Scroll from "./Scroll"
 import * as Animatable from 'react-native-animatable';
+import Support from './Support';
+
 export default class Mission extends Component {
     render() {
         return (
