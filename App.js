@@ -21,9 +21,7 @@ export default class App extends Component {
           title : '',
           headerTransparent : true,
           headerLeft : ()=>{
-            <Image source =  {require('./assets/icons/menu.png')} 
-            
-            />
+            <Image source={require('./assets/user.png')} style={{marginHorizontal:20,marginTop:40}}/>
           },
 
           headerRight : ()=>{
