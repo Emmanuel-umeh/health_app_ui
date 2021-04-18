@@ -7,6 +7,10 @@ export default class Mission extends Component {
         return (
             <View>
             <ScrollView 
+
+            style = {{
+                flex : 1
+            }}
             showsVerticalScrollIndicator = {false}
             contentContainerStyle ={{
                 width : "100%",
