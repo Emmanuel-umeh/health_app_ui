@@ -5,7 +5,7 @@ export default class Card extends React.Component{
     render(){
         return(
             <Animatable.View animation={this.props.move} duration={1500} style={styles.cardone}>
-                <TouchableOpacity style={styles.box1} onPress={this.props.screenchange}>
+                <TouchableOpacity style={styles.box1} onPress={this.props.onScreenChange}>
                     <View style={{borderRadius:21,backgroundColor:'rgba(255, 190, 134, 0.2);',height:'100%',flex:1,alignItems:'center',justifyContent:'center'}}>
                         <Image source={this.props.image}/>
                     </View>
