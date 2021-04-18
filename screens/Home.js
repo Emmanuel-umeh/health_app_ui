@@ -20,9 +20,7 @@ export default class Home extends Component {
                     </View>
                     <View style ={styles.boxthree}>
 
-                        {/* <ImageBackground  source ={{
-                            uri : "https://previews.123rf.com/images/apostrophe/apostrophe1703/apostrophe170300173/74394047-blue-textured-background-wallpaper-app-background-layout.jpg"
-                        }} /> */}
+                        <ImageBackground  source ={require("../assets/icons/graphone.png")} />
 
                     </View>
                     <View style ={styles.boxfour}>
