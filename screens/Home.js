@@ -59,6 +59,7 @@ My progress
                 subtitle  = "85% Completed"
                 image = {require("../assets/icons/checkbox.png")}
                 completed  = "85%"
+                onScreenChange = {this.change}
                 />
                 <Card 
                 move = "bounceInLeft"
@@ -66,6 +67,7 @@ My progress
                 subtitle  = "85% Completed"
                 image = {require("../assets/icons/checkbox.png")}
                 completed  = "75%"
+                onScreenChange = {this.change}
                 />
 
             </View>
