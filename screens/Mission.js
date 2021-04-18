@@ -60,5 +60,13 @@ const styles = StyleSheet.create({
         fontWeight : 'bold',
         color : '#2E2E2E'
 
-    }
+    },
+     memos : {
+         height : ,
+         position : ,
+         top : ,
+         width : "100%",
+         marginLeft : 
+
+     }
 })
