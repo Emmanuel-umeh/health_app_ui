@@ -1,9 +1,17 @@
 import React, { Component } from 'react'
+
 import {View, StyleSheet, Text, ImageBackground} from "react-native"
+import Day from "./Day"
 export default class Home extends Component {
 
     componentDidMount(){
         console.log("mounted")
+      }
+
+
+      state = {
+          color, 
+          activeState : "rgba(255,255,255,0.29)"
       }
     render() {
         return (
