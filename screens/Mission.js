@@ -117,5 +117,16 @@ const styles = StyleSheet.create({
          width : "100%",
          marginLeft : 10
 
+     },
+     supportview :{
+        position : 'absolute',
+        left : 25,
+        top : 420
+     },
+     support :{
+         fontSize : 20,
+         fontWeight : "bold",
+         letterSpacing : -0.5,
+         color : "#2E2E2E"
      }
 })
