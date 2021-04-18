@@ -39,7 +39,7 @@ export default class Mission extends Component {
                             background={require('../assets/icons/graphtwo.png')}
                             title="100 Km Jogging"
                             month = "Jan - Feb"
-                            animation = "bounceInLeft"
+                            // animation = "bounceInLeft"
                             />
                              <Scroll bgcolor="#FFBE86" 
                             background={require('../assets/icons/graphtwo.png')}
