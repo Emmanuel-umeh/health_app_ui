@@ -60,7 +60,7 @@ const styles = StyleSheet.create({
     },
     boxfour : {
         flex : 0.5,
-        color : '$fff',
+        color : '#fff',
         flexDirection : 'row'
     }
 })
