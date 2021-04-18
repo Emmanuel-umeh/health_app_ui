@@ -80,7 +80,7 @@ const styles = StyleSheet.create({
   },
   insidethree: {
     flex: 3,
-    alignItems: "center",
+    alignItems: "flex-end",
     justifyContent: "center",
     margin : 10
   },
