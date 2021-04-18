@@ -6,7 +6,7 @@ import Scroll from "./Scroll"
 export default class Mission extends Component {
     render() {
         return (
-            <View>
+            <View style = {styles.container}>
             <ScrollView 
 
             style = {{
