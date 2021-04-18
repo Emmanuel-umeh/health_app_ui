@@ -7,6 +7,11 @@ import Mission from "./screens/Mission"
 
 const Stack = createStackNavigator()
 export default class App extends Component {
+
+
+  componentDidMount(){
+    console.log("mounted")
+  }
   render() {
     return (
       <NavigationContainer>
