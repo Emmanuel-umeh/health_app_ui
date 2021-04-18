@@ -12,6 +12,13 @@ export default class Home extends Component {
     color: "#126DF3",
     activeState: "rgba(255,255,255,0.291821)",
   };
+  
+
+  change = ()=>{
+      return(
+          this.props.navigation.navigate("Mission")
+      )
+  }
   render() {
     return (
       <View style={styles.container}>
