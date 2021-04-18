@@ -21,7 +21,12 @@ export default class Scroll extends Component {
                     this.props.title}</Text>
                     <Text style = {{
                         color : "#fff", fontSize : 14, marginVertical : 5
-                    }}></Text>
+                    }}>{this.props.month}</Text>
+                </View>
+
+
+                <View style = {style.insidetwo}>
+
                 </View>
                 
             </Animatable.View>
