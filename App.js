@@ -16,7 +16,7 @@ export default class App extends Component {
     return (
       <NavigationContainer>
         
-        <Stack.Screen name = "Home" component = {<Home /> } options ={{
+        <Stack.Screen  name = "Home" component = {<Home /> } options ={{
           title : '',
           headerTransparent : true,
           headerLeft : ()=>{

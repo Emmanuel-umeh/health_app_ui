@@ -1,6 +1,10 @@
 import React, { Component } from 'react'
 import {View, StyleSheet, Text, ImageBackground} from "react-native"
 export default class Home extends Component {
+
+    componentDidMount(){
+        console.log("mounted")
+      }
     render() {
         return (
             <View style = {styles.container}>
