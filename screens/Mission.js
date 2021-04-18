@@ -83,7 +83,7 @@ const styles = StyleSheet.create({
     },
      memos : {
          height : 250,
-         position : 'relative',
+         position : 'absolute',
          top : 160,
          width : "100%",
          marginLeft : 10
