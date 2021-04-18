@@ -46,6 +46,21 @@ export default class Card extends Component {
             {this.props.subtitle}
           </Text>
         </View>
+
+        <View style = {styles.box3}>
+            <View style = {{
+                height : "100%",
+                width : "50%",
+                borderWidth : 1,
+                borderColor : "#136DF3",
+                borderRadius : 100,
+                alignItems : "center",
+                justifyContent : "center"
+            }}>
+
+            </View>
+
+        </View>
       </Animatable.View>
     );
   }
