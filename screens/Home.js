@@ -38,7 +38,7 @@ export default class Home extends Component {
               <Day day_name = "Thu"  active = {this.state.activeState} />
               <Day day_name = "Fri" />
               <Day day_name = "Sat" />
-              <Day day_name = "Sun" />
+
           </View>
         </View>
 
