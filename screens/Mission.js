@@ -106,7 +106,7 @@ const styles = StyleSheet.create({
      memos : {
          height : 250,
          position : 'absolute',
-         top : 100,
+         top : 160,
          width : "100%",
          marginLeft : 10
 
