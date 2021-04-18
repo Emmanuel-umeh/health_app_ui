@@ -62,11 +62,11 @@ const styles = StyleSheet.create({
 
     },
      memos : {
-         height : ,
-         position : ,
-         top : ,
+         height : 250,
+         position : 'absolute',
+         top : 100,
          width : "100%",
-         marginLeft : 
+         marginLeft : 10
 
      }
 })
