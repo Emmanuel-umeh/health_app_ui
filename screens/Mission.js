@@ -41,34 +41,7 @@ export default class Mission extends  React.Component{
                             />
                         </ScrollView>
                     </View>
-                    <View style={styles.supportview}>
-                        <Text style={styles.support}>Support</Text>
-                    </View>
-                    <Animatable.View animation="fadeInLeft" duration={1500} style={[styles.rectangleone,{shadowOffset: { width: 100, height: 100 },
-                    shadowColor: 'rgba(138, 149, 158, 0.2)',
-                    shadowOpacity: 1,
-                    elevation: 30,
-                    backgroundColor : "#FFFFFF"}]}>
-                        <Support
-                        image = {require('../assets/exercise.png')}
-                        title = "Daily Exercise"
-                        subtitle = "Difficulty on insensible"
-                        />
-                    </Animatable.View>
-                    <Animatable.View animation="fadeInRight" duration={1500} style={[styles.rectangleone,{top : 580,backgroundColor:'#F4F9FC'}]}>
-                        <Support
-                        image = {require('../assets/apple.png')}
-                        title = "Balanced Diet"
-                        subtitle = "Occasional Preference fast"
-                        />
-                    </Animatable.View>
-                    <Animatable.View animation="fadeInLeft" duration={1500} style={[styles.rectangleone,{top : 690,backgroundColor:'#F4F9FC'}]}>
-                        <Support
-                        image = {require('../assets/cricket.png')}
-                        title = "Sports and Yoga"
-                        subtitle = "Services securing health ..."
-                        />
-                    </Animatable.View>
+                    
                 </ScrollView>
             </View>
         );
