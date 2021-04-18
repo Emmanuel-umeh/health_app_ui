@@ -42,6 +42,10 @@ const styles = StyleSheet.create({
 
     },
     inline : {
-        
+        fontSize : 30,
+        letterSpacing : -0.5,
+        fontWeight : 'bold',
+        color : ''
+
     }
 })
