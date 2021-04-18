@@ -80,5 +80,6 @@ const styles = StyleSheet.create({
     flex: 3,
     alignItems: "center",
     justifyContent: "center",
+    margin : 10
   },
 });
