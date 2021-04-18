@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { View , Text, ScrollView} from 'react-native'
+import { View , Text, ScrollView, StyleSheet} from 'react-native'
 // import {  } from 'react-native-gesture-handler'
 
 export default class Mission extends Component {
@@ -26,3 +26,11 @@ export default class Mission extends Component {
         )
     }
 }
+
+
+const styles = StyleSheet.create({
+    container : {
+        flex : 1,
+        alignItems
+    }
+})
