@@ -42,7 +42,11 @@ export default class Home extends Component {
           </View>
         </View>
 
-        <View style={styles.containertwo}></View>
+        <View style={styles.containertwo}>
+            <View style = {style.linr}></View>
+            <View style = {style.progress}></View>
+            <Text></Text> </View>
+        </View>
       </View>
     );
   }
