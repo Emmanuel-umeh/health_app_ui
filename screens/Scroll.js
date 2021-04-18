@@ -33,10 +33,15 @@ export default class Scroll extends Component {
                 </View>
 
                 <TouchableOpacity style = {styles.insidethree}>
-<Image source = {require("../assets/icons")}></Image>
+<Image source = {require("../assets/icons/i_icon.png")}></Image>
                 </TouchableOpacity>
                 
             </Animatable.View>
         )
     }
 }
+
+
+const styles = StyleSheet.create({
+    memo1 : {}
+})
