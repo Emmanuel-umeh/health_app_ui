@@ -11,6 +11,14 @@ export default class Scroll extends Component {
                 }
             }
             >
+
+                <View style = {styles.insideone}>
+
+                    <Text  style = {{
+                        fontSize : 20, color : "#fff", width : 100
+                    }}>{
+                    this.props.title}</Text>
+                </View>
                 
             </Animatable.View>
         )
