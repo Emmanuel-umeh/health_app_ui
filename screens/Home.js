@@ -69,5 +69,17 @@ const styles = StyleSheet.create({
         flex : 0.5,
         color : '#fff',
         flexDirection : 'row'
-    }
+    },
+     name : {
+         fontSize : 35,
+         color : "#fff",
+         fontWeight : 'bold',
+         letterSpacing : -0.5,
+         marginTop : 5
+
+     },
+     subtitle : {
+         fontSize : 20,
+         color : "#fff"
+              }
 })
