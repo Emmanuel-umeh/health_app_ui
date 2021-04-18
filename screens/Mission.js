@@ -54,6 +54,9 @@ export default class Mission extends Component {
                         </ScrollView>
                 </View>
                 
+                <View>
+                    
+                </View>
 
             </ScrollView>
                 
