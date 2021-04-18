@@ -17,7 +17,11 @@ export default class Scroll extends Component {
                     <Text  style = {{
                         fontSize : 20, color : "#fff", width : 100
                     }}>{
+
                     this.props.title}</Text>
+                    <Text style = {{
+                        color : "#fff", fontSize : 14, marginVertical : 5
+                    }}></Text>
                 </View>
                 
             </Animatable.View>
