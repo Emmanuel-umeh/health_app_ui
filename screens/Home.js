@@ -42,48 +42,66 @@ export default class Home extends Component {
 const styles = StyleSheet.create({
 
     container : {
-        flex : 1, 
-        alignItems : "center", 
-        justifyContent : "center"
+        flex : 1,
+        display : 'flex',
+        backgroundColor : '#136DF3'
     },
-
-    containerone: {
-      
-        flex : 1
-
+    containerone : {
+        flex : 1.5,
+        display : 'flex'
     },
-
     containertwo : {
         flex : 1,
         backgroundColor : '#fff',
-        borderTopRightRadius :  60, 
-        borderTopLeftRadius : 60
+        borderTopRightRadius : 60,
+        borderTopLeftRadius : 60,
     },
     boxone : {
-        flex : 1
+        flex : 1,
     },
     boxtwo : {
         flex : 0.8,
         marginHorizontal : 35
     },
     boxthree : {
-        flex : 2.5
+        flex : 2.5,
     },
     boxfour : {
         flex : 0.5,
         color : '#fff',
         flexDirection : 'row'
     },
-     name : {
-         fontSize : 35,
-         color : "#fff",
-         fontWeight : 'bold',
-         letterSpacing : -0.5,
-         marginTop : 5
-
-     },
-     subtitle : {
-         fontSize : 20,
-         color : "#fff"
-              }
+    name : {
+        fontSize : 38,
+        color : '#fff',
+        fontWeight : 'bold',
+        letterSpacing : -0.5,
+    },
+    subtitle : {
+        fontSize : 20,
+        color : '#fff'
+    },
+    line : {
+        width : 66,
+        height : 4,
+        backgroundColor : '#F4F0F0',
+        borderRadius : 2,
+        marginVertical : 25,
+        left : 150
+    },
+    progress : {
+        left : 50
+    },
+    textone : {
+        fontSize : 20,
+        color : '#2D2D2D',
+        letterSpacing : -0.5
+    },
+    cards : {
+        flex : 1,
+        display : 'flex',
+        marginTop : 10,
+        marginHorizontal : 30
+    },
+    
 })
