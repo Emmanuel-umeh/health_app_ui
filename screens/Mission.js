@@ -45,7 +45,7 @@ const styles = StyleSheet.create({
         fontSize : 30,
         letterSpacing : -0.5,
         fontWeight : 'bold',
-        color : ''
+        color : '#2E2E2E'
 
     }
 })
