@@ -13,6 +13,9 @@ export default class App extends Component {
   render() {
     return (
       <NavigationContainer>
+        <Stack.Navigator>
+
+   
         
         <Stack.Screen  name = "Home" component = {Home } options ={{
           title : '',
@@ -44,6 +47,7 @@ export default class App extends Component {
           }
         }} 
         component = { Mission } />
+             </Stack.Navigator>
       </NavigationContainer>
     )
     <StackActions
