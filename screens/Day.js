@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { View ,  StyleSheet} from 'react-native'
+import { View ,  StyleSheet, Text} from 'react-native'
 
 export default class Day extends Component {
 
