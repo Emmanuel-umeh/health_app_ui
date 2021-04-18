@@ -128,5 +128,13 @@ const styles = StyleSheet.create({
          fontWeight : "bold",
          letterSpacing : -0.5,
          color : "#2E2E2E"
+     },
+     rectangleone : {
+         height : 65,
+         width : 300,
+         position : "absolute", 
+         alignSelf : "center",
+         top : 470,
+         borderRadius : 18
      }
 })
