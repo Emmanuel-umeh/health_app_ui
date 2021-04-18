@@ -11,7 +11,7 @@ export default class Home extends Component {
 
       state = {
         color :"#126DF3",
-          activeState : "rgba(255,255,255,0.29)"
+          activeState : "rgba(255,255,255,0.291821)"
       }
     render() {
         return (
