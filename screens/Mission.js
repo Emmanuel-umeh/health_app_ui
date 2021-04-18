@@ -22,6 +22,16 @@ export default class Mission extends Component {
                     <Text style = {styles.inline}> My Mission</Text>
 
                 </View>
+
+                <View style = {style.memos}>
+                    <ScrollView horizontal = {true}
+                    
+                    
+                    >
+
+                    </ScrollView>
+
+                </View>
                 
 
             </ScrollView>
