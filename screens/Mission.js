@@ -24,7 +24,7 @@ export default class Mission extends Component {
 
                 </View>
 
-                <View style = {style.memos}>
+                <View style = {styles.memos}>
                     <ScrollView horizontal = {true}
                     
                     contentContainerStyle = {{width : "200%"}}
