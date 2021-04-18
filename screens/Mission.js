@@ -25,55 +25,33 @@ export default class Mission extends Component {
                 </View>
 
                 <View style = {styles.memos}>
-                    <ScrollView horizontal = {true}
-                    
-                    contentContainerStyle = {{width : "200%"}}
-                    showsHorizontalScrollIndicator = {false}
-                    >
-
-                        <Scroll 
-                        bgcolor = '#FFBE86'
-                        title = "Call of Duty"
-                        month = "Sep - Nov"
-                        animation = "bounceInLeft"
-
-                        background = {require("../assets/icons/graphtwo.png")}
-                        />
-                        <Scroll 
-                        bgcolor = '#FFBE86'
-                        title = "Call of Duty"
-                        month = "Sep - Nov"
-                        animation = "bounceInLeft"
-
-                        background = {require("../assets/icons/graphtwo.png")}
-                        />
-                        <Scroll 
-                        bgcolor = '#FFBE86'
-                        title = "Free Fire"
-                        month = "Sep - Nov"
-                        animation = "bounceInLeft"
-
-                        background = {require("../assets/icons/graphtwo.png")}
-                        />
-                        <Scroll 
-                        bgcolor = '#FFBE86'
-                        title = "PUBG"
-                        month = "Sep - Nov"
-                        animation = "bounceInLeft"
-
-                        background = {require("../assets/icons/graphtwo.png")}
-                        />
-                        <Scroll 
-                        bgcolor = '#FFBE86'
-                        title = "FortNite"
-                        month = "Sep - Nov"
-                        animation = "bounceInLeft"
-
-                        background = {require("../assets/icons/graphtwo.png")}
-                        />
-
-                    </ScrollView>
-
+                <ScrollView 
+                        horizontal={true} 
+                        contentContainerStyle={{width:'200%'}}
+                        showsHorizontalScrollIndicator={false}>
+                            <Scroll bgcolor="#FFBE86" 
+                            background={require('../assets/icons/graphtwo.png')}
+                            title="Game Of Chess"
+                            month = "Sep - Nov"
+                            animation = "bounceInLeft"
+                            />
+                             <Scroll bgcolor="#7DC9E7" 
+                            background={require('../assets/icons/graphtwo.png')}
+                            title="100 Km Jogging"
+                            month = "Jan - Feb"
+                            animation = "bounceInLeft"
+                            />
+                             <Scroll bgcolor="#FFBE86" 
+                            background={require('../assets/icons/graphtwo.png')}
+                            title="Netflix and Chill"
+                            month = "March - April"
+                            />
+                             <Scroll bgcolor="#7DC9E7" 
+                            background={require('../assets/icons/graphtwo.png')}
+                            title="Video Games"
+                            month = "Aug - Sep"
+                            />
+                        </ScrollView>
                 </View>
                 
 
