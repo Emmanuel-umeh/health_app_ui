@@ -33,6 +33,15 @@ const styles = StyleSheet.create({
         flex : 1,
         alignItems : "center",
         justifyContent : "center",
+        backgroundColor : "#fff"
+    },
+    header : {
+        flex : 1,
+        left : 25,
+        top : 100
+
+    },
+    inline : {
         
     }
 })
