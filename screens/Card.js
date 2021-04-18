@@ -47,47 +47,50 @@ export default class Card extends Component {
           </Text>
         </View>
 
-        <View style = {styles.box3}>
-            <View style = {{
-                height : "100%",
-                width : "50%",
-                borderWidth : 1,
-                borderColor : "#136DF3",
-                borderRadius : 100,
-                alignItems : "center",
-                justifyContent : "center"
-            }}>
-<Text style = {{
-    fontSize : 20, fontWeight : 'bold', color : "#136DF3"
-}}>
-    {this.props.completed}
-</Text>
-            </View>
-
+        <View style={styles.box3}>
+          <View
+            style={{
+              height: "100%",
+              width: "50%",
+              borderWidth: 1,
+              borderColor: "#136DF3",
+              borderRadius: 100,
+              alignItems: "center",
+              justifyContent: "center",
+            }}
+          >
+            <Text
+              style={{
+                fontSize: 20,
+                fontWeight: "bold",
+                color: "#136DF3",
+              }}
+            >
+              {this.props.completed}
+            </Text>
+          </View>
         </View>
       </Animatable.View>
     );
   }
 }
 
-
 const styles = StyleSheet.create({
-    cardone : {
-        flex :1,
-         marginBottom : 15,
-         flexDirection : "row"
-    },
-card : {
-    flex :1
-}, 
-box1 : {
-    flex : 1
-},
- box2 : {
-     flex : 1
- },
-  box :{
-      flex: 1
-  }
-
-})
+  cardone: {
+    flex: 1,
+    marginBottom: 15,
+    flexDirection: "row",
+  },
+  card: {
+    flex: 1,
+  },
+  box1: {
+    flex: 1,
+  },
+  box2: {
+    flex: 1,
+  },
+  box: {
+    flex: 1,
+  },
+});
